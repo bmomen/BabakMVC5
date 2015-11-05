@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BabakMVC5", "BabakMVC5\BabakMVC5.csproj", "{2F9E6605-A85E-4ADC-8BF7-EFC8304907E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{D8A0C98C-81AF-48D7-921B-048B950F31A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{914B55F1-665B-499E-BDF6-9E9693E7EB83}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{3A851DE7-1B5C-4E77-8B3E-BBD535933E24}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\BabakMVC5.json = PublishScripts\Templates\BabakMVC5.json
+		PublishScripts\Templates\BabakMVC5.param.dev.json = PublishScripts\Templates\BabakMVC5.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F9E6605-A85E-4ADC-8BF7-EFC8304907E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F9E6605-A85E-4ADC-8BF7-EFC8304907E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F9E6605-A85E-4ADC-8BF7-EFC8304907E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F9E6605-A85E-4ADC-8BF7-EFC8304907E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{914B55F1-665B-499E-BDF6-9E9693E7EB83} = {D8A0C98C-81AF-48D7-921B-048B950F31A3}
+		{3A851DE7-1B5C-4E77-8B3E-BBD535933E24} = {D8A0C98C-81AF-48D7-921B-048B950F31A3}
+	EndGlobalSection
+EndGlobal

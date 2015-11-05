@@ -1,0 +1,32 @@
+{
+  "siteName": {
+    "value": "BabakMVC5"
+  },
+  "hostingPlanName": {
+    "value": "mvc5"
+  },
+  "siteLocation": {
+    "value": "West Europe"
+  },
+  "sku": {
+    "value": "Free"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "serverName": {
+    "value": "mvc5babak"
+  },
+  "serverLocation": {
+    "value": "West Europe"
+  },
+  "administratorLogin": {
+    "value": "bmomen"
+  },
+  "administratorLoginPassword": {
+    "value": "Babak123"
+  },
+  "databaseName": {
+    "value": "BabakMVC5_db"
+  }
+}
